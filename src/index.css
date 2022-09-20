@@ -1,0 +1,357 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+section{
+  padding: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.navbar{
+  box-shadow: 0 0 15px #888282;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav--header{
+  padding: 10px;
+  margin-left: 4%;
+  font-family: 'Square Peg', cursive;
+  color: #f70c0c;
+}
+
+.nav--options{
+  margin-right: 5%;
+  text-decoration: none;
+  font-family: 'Square Peg',cursive;
+  font-size: 1.2em;
+  color: #f70c0c;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.nav--menu{
+  display: none;
+}
+.nav--options:hover{
+  cursor: pointer;
+  background-color:#f67a8e;
+  color: white;
+  transition: background-color linear 0.2s;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+}
+.cluster{
+  width: 70%;
+  padding: 20px;
+}
+
+.online-experiences{
+  margin:auto auto auto 6%;
+  padding: 5px;
+
+}
+.exp-header{
+  font-size: 2.6em;
+  font-family: 'Square Peg', cursive;
+}
+
+
+.online{
+  background-color: #f7758b;
+  box-shadow: 0 0 15px rgb(119, 116, 116);
+  margin: 3.5% 0;
+}
+
+
+
+.online-experiences h4{
+  width: 70%;
+  font-size: 1.2em;
+  font-family: 'Square Peg', cursive;
+color: white;
+
+}
+
+
+.cards-list {
+  gap: 25px;
+  padding: 4%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr ;
+  
+}
+
+.card {
+  width: 100%;
+  font-size:1.2em;
+  flex: 0 0 auto;         
+  border-radius: 10px;
+  box-shadow: 0 0 15px #a19a9a;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gray{
+  color: #918E9B;}
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+  height: 55%;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;  margin-left: 10px;
+  text-align: left;
+  font-weight: bolder;
+  color: #f67a8e;
+
+}
+.card--stats {
+  align-items: space-between;
+  
+}
+
+.card--description{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.card--star {
+  width: 10%;
+  margin-left: 8px;
+}
+
+.card--price {
+  margin-top: auto;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+
+.contact{
+  font-size: 1.2em;
+  font-family: 'Square Peg', cursive;
+  padding:1% 5% ;
+  margin: 0 0 0 0;
+  background-color: #f7758b;
+  box-shadow: 0 0 15px #777474;
+}
+
+.footer{
+  float: right;
+}
+
+.contact--header{
+  color: black;
+}
+
+.contact--content{
+  color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width:412px) {
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+  
+  section{
+    padding: 20px;
+  }
+ 
+
+  .nav-logo{
+    width: 180px;
+    margin: auto auto auto 5%;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  
+  .navbar{
+    font-size: 0.7em;
+    box-shadow: 0 0 15px #888282;
+    align-items: center; 
+    justify-content: center;  
+    text-align: left; 
+  }
+  
+  .nav--header{
+    padding: 10px;
+    margin-left: 2%;
+    font-family: 'Square Peg', cursive;
+  }
+  
+  .nav--menu--ham{
+    display: block;
+    width: 10%;
+    
+  }
+  .nav--menu--cross{
+    display: block;
+    width: 8%;
+    
+  }
+
+.nav--options{
+   margin-right: 2%; 
+   text-decoration: none;
+  font-family: 'Square Peg',cursive;
+  font-size: 1.2em;
+  color: #f70c0c;
+   padding: 10px; 
+  border-radius: 20px;
+  float: right; 
+  
+}
+
+
+
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
+  }
+  .cluster{
+    width: 110%;
+    padding: 20px;
+    
+  }
+  
+  .online-experiences{
+    margin:auto auto auto 6%;
+    padding: 5px;
+  
+  }
+  .exp-header{
+    font-family: 'Square Peg', cursive;
+  }
+  
+  
+  .online{
+    background-color: #f7758b;
+    box-shadow: 0 0 15px #777474;
+    margin: 3.5% 0;
+    font-size: 0.8em;
+  }
+  
+  
+  
+  .online-experiences h4{
+    width: 100%;
+    font-size: 1.2em;
+    font-family: 'Square Peg', cursive;
+    color: white;
+  
+  }
+  
+  
+  .cards-list {
+    gap: 15px;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr;
+    grid-template-rows: 2.5fr 2.5fr 2.5fr 2.5fr;
+    
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #888282;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .gray{
+    color: #918E9B;
+  }
+  .card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    height: 55%;
+  }
+  
+  .card--title {
+    
+    margin-left: 10px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 0.8em;
+  }
+ 
+  
+  .card--description{
+    text-align: left;
+    font-size: 0.8em;
+    margin-left:5% ;
+  }
+  
+  
+  
+  .card--price {
+    margin-top: auto;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.8em;
+  }
+  
+  
+  
+  .contact{
+    font-size: 0.8em;
+    font-family: 'Square Peg', cursive;
+    padding:1% 5% ;
+    margin: 5% 0 0 0;
+    background-color: #f7758b;
+    box-shadow: 0 0 15px #777474;
+  }
+  
+  .footer{
+    float: right;
+    font-size: 0.8em;
+    font-weight: bolder;
+  }
+  
+  .contact--header{
+    color: black;
+  }
+  
+  .contact--content{
+    color: white;
+  }
+  
+}
+
+
+  
